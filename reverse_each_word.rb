@@ -7,7 +7,8 @@ def reverse_each_word(string)
   array_string = string.split 
   array_string.each do |word|
    word.reverse!
-   array_string.join 
+   do array_string.join 
   end 
+end 
   return array_string
 end 
