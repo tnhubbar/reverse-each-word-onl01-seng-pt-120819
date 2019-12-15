@@ -9,3 +9,4 @@ def reverse_each_word(string)
    word.reverse.join 
 end 
 end 
+end 
