@@ -8,5 +8,5 @@ def reverse_each_word(string)
   array_string.each do |word|
    word.reverse! 
   end 
-  puts array_string
+  return array_string
 end 
